@@ -1,1 +1,1 @@
-Completed tasks from https://leetcode.com.
+Completed tasks from https://leetcode.com
