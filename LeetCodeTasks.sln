@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2011. FinalValueOfVariableAfterPerformingOperations", "LeetCodeTasks\2011. FinalValueOfVariableAfterPerformingOperations.csproj", "{F987001F-A698-43E9-A018-DE31F116E666}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{069CCC8C-6E08-468B-8A89-E605E4E85304}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{B51E39EF-B7C8-4D52-9509-DD050417B179}"
@@ -13,27 +11,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hard", "Hard", "{80CD05AA-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1480.RunningSumOf1dArray", "1480.RunningSumOf1dArray\1480.RunningSumOf1dArray.csproj", "{CB8BEB71-0B05-4001-8E95-927C1F406D48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2011.FinalValueOfVariableAfterPerformingOperations", "2011.FinalValueOfVariableAfterPerformingOperations\2011.FinalValueOfVariableAfterPerformingOperations.csproj", "{FB89C8AE-2CC3-4C62-99DF-73D8144927E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F987001F-A698-43E9-A018-DE31F116E666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F987001F-A698-43E9-A018-DE31F116E666}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F987001F-A698-43E9-A018-DE31F116E666}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F987001F-A698-43E9-A018-DE31F116E666}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CB8BEB71-0B05-4001-8E95-927C1F406D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CB8BEB71-0B05-4001-8E95-927C1F406D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB8BEB71-0B05-4001-8E95-927C1F406D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB8BEB71-0B05-4001-8E95-927C1F406D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB89C8AE-2CC3-4C62-99DF-73D8144927E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB89C8AE-2CC3-4C62-99DF-73D8144927E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB89C8AE-2CC3-4C62-99DF-73D8144927E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB89C8AE-2CC3-4C62-99DF-73D8144927E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F987001F-A698-43E9-A018-DE31F116E666} = {069CCC8C-6E08-468B-8A89-E605E4E85304}
 		{CB8BEB71-0B05-4001-8E95-927C1F406D48} = {069CCC8C-6E08-468B-8A89-E605E4E85304}
+		{FB89C8AE-2CC3-4C62-99DF-73D8144927E3} = {069CCC8C-6E08-468B-8A89-E605E4E85304}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2A623EF-F3B6-457A-85F8-EAF709C3C497}
