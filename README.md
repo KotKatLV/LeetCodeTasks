@@ -1,1 +1,3 @@
-2011. FinalValueOfVariableAfterPerformingOperations
+Difficulty: medium.
+
+Description: https://leetcode.com/problems/letter-combinations-of-a-phone-number
