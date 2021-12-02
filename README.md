@@ -1,1 +1,3 @@
-Completed tasks from https://leetcode.com & https://www.hackerrank.com
+Description: https://www.hackerrank.com/challenges/two-strings/problem
+
+Difficulty: easy.
