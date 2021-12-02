@@ -8,15 +8,41 @@
      */
     public static int gemstones(List<string> arr)
     {
+        // Slow solution
+        //int result = 0;
+        //string shortestString = arr.FirstOrDefault(x => x.Length == arr.Min(s => s.Length));
+        //for (int i = 0; i < shortestString.Length; i++)
+        //{
+        //    if (arr.All(s => s.Contains(shortestString[i])))
+        //    {
+        //        result++;
+        //    }
+        //}
+
+        // Fast solution
         int result = 0;
-        string shortestString = arr.FirstOrDefault(x => x.Length == arr.Min(s => s.Length));
-        for (int i = 0; i < shortestString.Length; i++)
+        int[] counters = new int[26];
+
+        for (int i = 0; i < arr.Count; i++)
         {
-            if (arr.All(s => s.Contains(shortestString[i])))
+            foreach (var c in arr[i])
+            {
+                int ind = c - 'a';
+                if (counters[ind] == i)
+                {
+                    counters[ind]++;
+                }
+            }
+        }
+
+        for (int i = 0; i < counters.Length; i++)
+        {
+            if (counters[i] == arr.Count)
             {
                 result++;
             }
         }
+
         return result;
     }
 }
