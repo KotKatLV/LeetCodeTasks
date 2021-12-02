@@ -1,1 +1,3 @@
-Completed tasks from https://leetcode.com & https://www.hackerrank.com
+Difficulty: easy.
+
+Description: https://www.hackerrank.com/challenges/string-construction/problem
